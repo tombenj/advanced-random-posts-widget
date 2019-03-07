@@ -1,0 +1,20 @@
+{
+  "name": "advanced-random-posts-widget",
+  "version": "2.2.0",
+  "author": "Idenovasi",
+  "homepage": "http://idenovasi.com/",
+  "licenses": [
+    {
+      "type": "GPL",
+      "url": "http://www.gnu.org/licenses/gpl-2.0.html"
+    }
+  ],
+  "devDependencies": {
+    "grunt": "~1.0.3",
+    "grunt-wp-i18n": "^1.0.3",
+    "jit-grunt": "^0.10.0",
+    "grunt-contrib-clean": "^2.0.0",
+    "grunt-contrib-compress": "^1.4.3",
+    "grunt-contrib-copy": "^1.0.0"
+  }
+}

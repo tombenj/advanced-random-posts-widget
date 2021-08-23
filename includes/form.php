@@ -121,7 +121,7 @@ if ( ! defined( 'ABSPATH' ) ) exit;
 					<?php _e( 'Post status', 'advanced-random-posts-widget' ); ?>
 				</label>
 				<select class="widefat" id="<?php echo $this->get_field_id( 'post_status' ); ?>" name="<?php echo $this->get_field_name( 'post_status' ); ?>" style="width:100%;">
-					<?php foreach ( get_available_post_statuses() as $status_value => $status_label ) { ?>
+					<?php foreach ( array_keys( get_object_vars( wp_count_posts( 'post' ) ) ) as $status_value => $status_label ) { ?>
 						<option value="<?php echo esc_attr( $status_label ); ?>" <?php selected( $instance['post_status'], $status_label ); ?>><?php echo esc_html( ucfirst( $status_label ) ); ?></option>
 					<?php } ?>
 				</select>

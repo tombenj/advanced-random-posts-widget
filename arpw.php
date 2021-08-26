@@ -4,6 +4,7 @@
  * Plugin URI:   https://github.com/idenovasi/advanced-random-posts-widget
  * Description:  Easily to display advanced random posts via shortcode or widget.
  * Version:      2.2.0
+ * Text Domain:  advanced-random-posts-widget
  * Author:       Idenovasi
  * Author URI:   https://idenovasi.com/
  * Author Email: satrya@idenovasi.com
